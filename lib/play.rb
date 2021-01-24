@@ -39,6 +39,6 @@ end
 
 def play(board)
   turn(board)
-  until 9.times {valid_move} 
+  until 9.times {valid_move(board, index)} 
   end
 end 
