@@ -38,8 +38,7 @@ end
 # Define your play method below
 
 def play(board)
-    
-    valid_move
-    turn(board)
+  turn(board)
+  until 9.times {valid_move} 
   end
 end 
